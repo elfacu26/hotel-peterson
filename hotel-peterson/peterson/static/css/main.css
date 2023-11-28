@@ -1,0 +1,271 @@
+body {
+    background-color: #313131;
+}
+
+body hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 100px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.navbar {
+    box-shadow: 0px 0px 40px black;
+    width: 100%;
+}
+
+.nav-item a {
+    color: #c5a75d;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5)
+}
+
+.navbar-brand {
+    color: #c5a75d;
+    margin-left: 20px;
+}
+
+.carousel {
+    height: 500px;
+    margin-top: 73px;
+}
+
+.carousel-caption {
+    color: #f3f3f3;
+    text-shadow: 0px 0px 10px black;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+    background-color: black;
+    filter: brightness(0.5);
+}
+
+.boton-reserva {
+    width: 100%;
+    height: 90px;
+    border-radius: 0%;
+    box-shadow: 0px 0px 40px black;
+    font-size: 35px;
+    font-weight: 400;
+    background-color: #1b1b1b;
+    transition: .2s;
+}
+
+.boton-reserva button {
+    width: 100%;
+    height: 90px;
+    border-radius: 0%;
+    font-size: 35px;
+    font-weight: 400;
+    background-color: #c5a75d;
+    transition: .4s;
+}
+
+.boton-reserva:hover {
+    background-color: #998247;
+}
+
+.boton-reserva button a {
+    text-decoration: none;
+    color: #1b1b1b;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.boton-reserva button a:hover {
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+#login {
+    margin-left: 20px;
+}
+
+#login a {
+    background-color: #c5a75d;
+    color: black;
+    transition: .3s;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+#login a:hover {
+    background-color: #806c3c;
+}
+
+#registro {
+    margin-left: 20px;
+}
+
+#registro a {
+    background-color: #c5a75d;
+    color: black;
+    transition: .3s;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+#registro a:hover {
+    background-color: #806c3c;
+}
+
+.container-info {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    color: #f3f3f3;
+    justify-content: space-between;
+}
+
+.img-info {
+    width: 500px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.text-home {
+    color: #f3f3f3;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.text-home p {
+    font-size: 20px;
+}
+
+.container-galeria {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.container-galeria h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f3f3f3;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.container-firstrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-secondrow {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-firstrow img {
+    height: 250px;
+    object-fit: cover;
+    width: 375px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.container-secondrow img {
+    height: 250px;
+    object-fit: cover;
+    width: 375px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.container-fluid {
+    background-color: rgb(19, 19, 19);
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.6);
+    color: #f3f3f3;
+}
+
+.container-reserva {
+    margin-top: 120px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.habitaciones-disp {
+    width: 806px;
+}
+
+.cuadro {
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.6);
+}
+
+.img-hab {
+    width: 300px;
+    object-fit: cover;
+    border: 5px solid #1b1b1b;
+}
+
+.flex-hab {
+    display: flex;
+}
+
+.contenedor-hab {
+    background-color: #dadada;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.hab-texto {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#reservar {
+    margin-left: auto;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    background-color: #c5a75d;
+}
+
+#reservar:hover {
+    background-color: #806c3c;
+}
+
+.cuadro hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 10px;
+    background-color: #575757;
+    border-radius: 100px;
+}
+
+.img-pago {
+    width: 300px;
+}
+
+.container-register {
+    margin-top: 110px;
+}
+
+.d-grid button {
+    background-color: #c5a75d;
+}
+
+.d-grid button:hover {
+    background-color: #806c3c;
+}
+
+.wrapper {
+    border-top: 5px solid #c5a75d;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: #c5a75d;
+}
